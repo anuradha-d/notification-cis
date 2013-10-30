@@ -3,12 +3,11 @@
 This gem is inspired by the notifications introduced in Windows 8.
 
 Features
-
-   1. Notifications slide in and out from the upper right corner of the page
-   2. Configurable life span of the notification
-   3. Option to display a heading
-   4. Theme options (see CSS for built in themes)
-   5. Ability to make the notification sticky
+1. Notifications slide in and out from the upper right corner of the page
+2. Configurable life span of the notification
+3. Option to display a heading
+4. Theme options (see CSS for built in themes)
+5. Ability to make the notification sticky
 
 
 ### INSTALLTION
@@ -44,8 +43,8 @@ Add the required line in application.css
 
 Then add the below line in application.html.erb
 
-```HTML
-  <%= flash_helper(flash)%>
+```rhtml
+  <% = flash_helper(flash)%>
 ```
 
 ### Reference Site
