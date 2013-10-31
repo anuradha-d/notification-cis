@@ -29,7 +29,7 @@ bundle install
 Run the generator to create the initial files.
 
 ```
-  rails g notification-cis:install
+  rails g notification_cis:install
 ```
 
 
