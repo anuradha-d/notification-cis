@@ -11,9 +11,9 @@ if ::Rails.version < "3.1" || !::Rails.application.config.assets.enabled
         def copy_jquery_nested
           copy_file "javascripts/jquery.notifications.min.js", "public/javascripts/jquery.notifications.min.js"
           copy_file "stylesheets/jquery.notifications.css", "public/stylesheets/jquery.notifications.css"
-          copy_file "images/notification_top_alert.png", "app/assets/images/notification_top_alert.png"
-          copy_file "images/notification_top_error.png", "app/assets/images/notification_top_error.png"
-          copy_file "images/notification_top_ok.png", "app/assets/images/notification_top_ok.png"
+          copy_file "images/notification_top_alert.png", "public/images/notification_top_alert.png"
+          copy_file "images/notification_top_error.png", "public/images/notification_top_error.png"
+          copy_file "images/notification_top_ok.png", "public/images/notification_top_ok.png"
         end
       end
     end
