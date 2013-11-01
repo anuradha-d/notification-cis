@@ -36,7 +36,7 @@ Run the generator to create the initial files.
 Then add the below line in application.html.erb
 
 ```rhtml
-  <% = flash_helper(flash)%>
+  <%= flash_helper(flash)%>
 ```
 
 ### Reference Site
