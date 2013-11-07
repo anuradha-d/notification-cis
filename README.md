@@ -26,25 +26,17 @@ Then run,
 ```
 bundle install
 ```
+Run the generator to create the initial files.
 
-### Configuration
-
-Then you need to add the following line on your application.js
-
-```Javascript
-  //= require jquery.notifications.min
+```
+  rails g notification_cis:install
 ```
 
-Add the required line in application.css
-
-```css
-  *= require jquery.notifications
-```
 
 Then add the below line in application.html.erb
 
 ```rhtml
-  <% = flash_helper(flash)%>
+  <%= flash_helper(flash)%>
 ```
 
 ### Reference Site
