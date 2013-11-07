@@ -1,6 +1,6 @@
 require 'rails'
 
-if ::Rails.version < "3.1" || !::Rails.application.config.assets.enabled
+if ::Rails.version < "3.1"
   module NotificationCis
     module Generators
       class InstallGenerator < ::Rails::Generators::Base
@@ -46,6 +46,7 @@ else
           return ['.js', '//='] if File.exist?('app/assets/javascripts/application.js')
         end
         def detect_css_format
+          return ['.css.scss', '*='] if File.exist?('app/assets/stylesheets/application.css.scss')
           return ['.css', '*='] if File.exist?('app/assets/stylesheets/application.css')
         end
       end
