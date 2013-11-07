@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'notification-cis'
-  s.version     = '0.0.4'
+  s.version     = '0.0.5'
   s.date        = '2013-10-31'
   s.summary     = "This gem is inspired by the notifications introduced in Windows 8. Notifications slide in and out from the upper right corner of the page. Configurable life span of the notification.Option to display a heading. Theme options (see CSS for built in themes).Ability to make the notification sticky"
   s.description = "This gem is inspired by the notifications introduced in Windows 8."
